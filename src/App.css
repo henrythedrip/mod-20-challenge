@@ -1,0 +1,172 @@
+/* #root {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+#page-footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  height: 7vh;
+  font-size: x-large;
+  background-color: black;
+  color: wheat;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: wheat;
+  font-size: x-large;
+}
+
+.selected-nav-item {
+  background-color: wheat;
+  color: black;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.content-wrapper {
+  background-color: wheat;
+  color: black;
+  height: 100vh;
+}
+
+.portfolio-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  width: 250px;
+  background-color: wheat;
+  margin: 10px;
+  overflow-wrap: break-word;
+  font-size: x-large;
+  background-size: cover;
+}
+
+.portfolio-item:hover {
+  height: 250px;
+  width: 300px;
+  color: black;
+  transition: 0.5s ease-in-out;
+  .portfolio-text{
+     opacity: 100%;
+     transition: 0.5s;
+     transition: 0.5s ease-in-out;
+  }
+}
+
+.portfolio-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: wheat;
+  padding: 10px;
+  border-radius: 20px;
+  opacity: 0%;
+}
+
+.portfolio-text>a{
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.portfolio-text>a:hover {
+  color: blue;
+  font-size: xx-large;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  padding: 50px 50px 0px 50px ;
+  margin: 30px;
+}
+
+.contact-form input {
+  height: 30px;
+  font-size: x-large;
+}
+.contact-form textarea {
+  height: 100px;
+  font-size: x-large;
+}
+
+.contact-list {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.empty-field {
+  background-color: red;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  margin: 50px;
+  padding: 10px;
+  font-size: large;
+}
+
+.about-wrapper img {
+  padding-top: 10px;
+  max-height: 420px;
+  max-width: 300px;
+  height: 100%;
+  width: 100%;
+  align-self: center;
+}
+
+.resume-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.resume-wrapper a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: orange;
+  border-radius: 10px;
+  font-size: larger;
+}
+
+.resume-wrapper object {
+  width: 70vw;
+  height: 70vh;
+}
